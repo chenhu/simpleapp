@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1446011846375
+Build-Jdk: 1.8.0_51
+Built-By: chenhu
+Bundle-Activator: org.opendaylight.controller.app.web.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: simpleapp-web
+Bundle-SymbolicName: org.opendaylight.toolkit.simpleapp-web
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.opendaylight.controller.app.web;version="1.0.0.SNAPSHOT";uses:="org.osgi.framework,org.osgi.service.http,org.osgi.util.tracker"
+Import-Package: org.osgi.framework;version="[1.7,2)",
+ org.osgi.service.http;version="[1.2,2)",
+ org.osgi.util.tracker;version="[1.5,2)"
+Tool: Bnd-1.50.0
